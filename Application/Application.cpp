@@ -14,11 +14,12 @@ int main()
     }
         
     int a = 1;
+    int a3 = 0;
     switch (a)
     {
     case 1:
         cout << "1";
-        int a3 = 1;
+        a3 = 1;
         cout << "a3 = " << a3;
     case 2:
         cout << "2";
